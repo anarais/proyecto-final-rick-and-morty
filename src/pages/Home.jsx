@@ -1,7 +1,9 @@
+import './title.css';
 import { useEffect, useState } from "react";
 import axios from "axios";
 import SearchBar from "../components/SearchBar";
 import ResourceList from "../components/ResourceList";
+
 
 const Home = () => {
   const [characters, setCharacters] = useState([]);
@@ -22,7 +24,7 @@ const Home = () => {
 
   return (
     <div>
-      <h1>Gestión de Recursos</h1>
+      <h1 className="title">Proyecto rick y morty</h1>
       <SearchBar onSearch={fetchCharacters} />
       <ResourceList characters={characters} />
     </div>

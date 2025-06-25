@@ -13,7 +13,7 @@
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25); 
 }
 
-@media (max-width: 463px) {
+@media (max-width: 484px) {
   .card {
     width: 100%;
     padding: 20px;
